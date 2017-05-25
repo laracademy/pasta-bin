@@ -20,7 +20,7 @@
         <div class="form-group">
             <label for="">Share Link</label>
             <div class="input-group">
-                <input type="text" class="form-control" id="short-url" value="http://zonda-paste.dev/a8s726" readonly />
+                <input type="text" class="form-control" id="short-url" value="http://pasta-bin.dev/a8s726" readonly />
                 <span class="input-group-addon">
                     <a href="#" data-toggle="tooltip" data-placement="left" title="Copy link" class="clipboard" data-clipboard-target="#short-url"><i class="fa fa-fw fa-clipboard"></i></a>
                 </span>
