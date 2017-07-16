@@ -42,8 +42,10 @@ class PasteController extends Controller
         return view('view', compact('paste'));
     }
 
-    public function destroy()
+    public function new()
     {
+        PasteRepository::new();
 
+        return redirect()->route('home');
     }
 }

@@ -16,6 +16,7 @@
 
             <div class="form-group">
                 <input type="submit" class="btn btn-block btn-success btn-lg" value="Save Snippet" />
+                <a href="{{ route('new') }}" class="btn btn-block btn-info btn-lg">New Snippet</a>
             </div>
 
             <div class="form-group">

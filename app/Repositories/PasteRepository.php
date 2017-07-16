@@ -9,10 +9,12 @@ class PasteRepository
 
     public function new()
     {
-      session()->forget('paste.id');
+        session()->forget('paste.id');
 
-      $this->create();
+        $this->create();
     }
+
+
 
     public function create()
     {

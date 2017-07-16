@@ -25,6 +25,10 @@
                 </div>
             </div>
 
+            <div class="form-group">
+                <a href="{{ route('new') }}" class="btn btn-block btn-info btn-lg">New Snippet</a>
+            </div>
+
         </div>
         <!-- /options -->
 
